@@ -1,16 +1,154 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Une oreille attentive</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdf8f3;
+      color: #4a4a4a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #d9cbb4;
+      color: #3e3e3e;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #f2e8dc;
+      padding: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5a4b3d;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      color: #5a4b3d;
+    }
+    button {
+      background-color: #a18c6d;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #8e7a5c;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fffdf9;
+    }
+    footer {
+      font-size: 0.9rem;
+    }
+    img.icon {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Une oreille attentive, un moment pour vider votre sac</h1>
+    <p>Séances de 30 min ou 1h, en ligne ou par téléphone</p>
+    <button onclick="location.href='#reservation'">Réserver une séance</button>
+  </header>
 
-<!--
-**Ecoute-bienveillante/ecoute-bienveillante** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#reservation">Réserver</a>
+    <a href="#mentions">Mentions légales</a>
+    <a href="#confidentialite">Confidentialité</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-Here are some ideas to get you started:
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Vous traversez une période difficile ? Vous avez besoin de parler à quelqu’un, sans jugement ni conseils imposés?</p>
+    <p>Je vous propose un moment d’écoute bienveillante, en toute confidentialité. Je ne suis pas psychologue ni thérapeute, simplement une personne à votre écoute, avec respect, discrétion et humanité.</p>
+  </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <section id="apropos">
+    <h2>Qui suis-je ?</h2>
+    <p>Je m'appelle Hamza Lamrabet et j’ai toujours été une personne à l’écoute. Ce projet est né du constat que beaucoup de gens ont besoin de parler à quelqu’un, sans forcément chercher une thérapie.</p>
+    <p>Mon rôle n’est pas de diagnostiquer, soigner ou conseiller, mais simplement d’offrir une présence humaine. Un espace sans jugement pour déposer vos pensées, vos émotions, vos histoires.</p>
+    <p><strong>Ce service ne remplace en aucun cas un suivi médical ou psychologique.</strong> Si vous souffrez de troubles psychiques ou de détresse profonde, je vous invite à consulter un professionnel de santé mentale ou un service d’urgence.</p>
+  </section>
+
+  <section id="reservation">
+    <h2>Réserver une séance</h2>
+    <p>Pour réserver une séance, merci de m'envoyer un e-mail à l'adresse suivante : <strong>ecoute-bienveillante@outlook.com</strong></p>
+    <p>Indiquez votre nom, prénom, et la durée souhaitée (30 minutes ou 1 heure).</p>
+    <p>Je m'engage à vous répondre dans un délai de 48 heures avec des créneaux disponibles, principalement le week-end.</p>
+    <p>Paiement par Twint ou virement bancaire – instructions envoyées après validation.</p>
+  </section>
+
+  <section id="tarifs">
+    <h2>Tarifs</h2>
+    <ul>
+      <li>30 minutes : CHF/€ 25.–</li>
+      <li>1 heure : CHF/€ 45.–</li>
+    </ul>
+    <p>Le paiement doit être effectué au moment de la réservation.</p>
+  </section>
+
+  <section id="mentions">
+    <h2>Mentions légales et clause de non-responsabilité</h2>
+    <p>⚠️ Ce service est un accompagnement non thérapeutique.<br>
+    Je ne suis ni psychologue, ni psychothérapeute, ni médecin.<br>
+    Aucune prise en charge de troubles psychiques, diagnostics ou traitements médicaux ne sont proposés ici.</p>
+    <p>En cas d’urgence ou de détresse psychologique, veuillez contacter un professionnel de santé, une ligne d’urgence ou un centre de soins.</p>
+    <p>Ce service est proposé à titre indépendant. Il ne donne lieu à aucun remboursement par les assurances maladie. Les échanges sont strictement confidentiels, mais ne relèvent pas du secret médical.</p>
+  </section>
+
+  <section id="confidentialite">
+    <h2>Politique de confidentialité</h2>
+    <p>Aucune donnée sensible n’est conservée sans votre consentement.</p>
+    <p>Le formulaire de réservation est sécurisé.</p>
+    <p>Les informations personnelles (nom, e-mail, date de rendez-vous) sont utilisées uniquement pour gérer les séances.</p>
+    <p>Aucune donnée n’est transmise à des tiers.</p>
+    <p>Vous pouvez à tout moment demander la suppression de vos données.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute question, vous pouvez me contacter à : <strong>ecoute-bienveillante@outlook.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Une oreille attentive – Site personnel</p>
+  </footer>
+</body>
+</html>
